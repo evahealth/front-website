@@ -1,1 +1,1 @@
-ejsc test/index.ejs --outFile indexnpm i ejs-compiler
+ejs-cli -f index.ejs -o index.html
