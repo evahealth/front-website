@@ -1,0 +1,1 @@
+ejsc test/index.ejs --outFile indexnpm i ejs-compiler

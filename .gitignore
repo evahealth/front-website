@@ -99,3 +99,6 @@ public
 
 #livepages
 index.html
+
+#Running the devel engine for kyler
+devel-for-kyler-enviro.sh
