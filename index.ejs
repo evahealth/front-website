@@ -9,46 +9,8 @@
     </head>
     <body data-spy="scroll" data-target="#mainNav" data-offset="70">
         
-        <!--================Header Menu Area =================-->
-        <header class="header_area">
-            <div class="main_menu" id="mainNav">
-            	<nav class="navbar navbar-expand-lg navbar-light">
-					<div class="container">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<a class="navbar-brand logo_h" href="index.html"><img src="/img/logo.png" alt=""></a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-							<ul class="nav navbar-nav menu_nav ml-auto">
-								<li class="nav-item active"><a class="nav-link" href="#home">Home</a></li> 
-								<li class="nav-item"><a class="nav-link" href="#feature">FEATURES</a></li> 
-								<li class="nav-item"><a class="nav-link" href="#video">VIDEO</a>
-								<li class="nav-item"><a class="nav-link" href="#price">PRICING</a>
-								<!--<li class="nav-item"><a class="nav-link" href="#screen">SCREENS</a>-->
-								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-									</ul>
-								</li> 
-								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-										<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-									</ul>
-								</li> 
-								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-							</ul>
-						</div> 
-					</div>
-            	</nav>
-            </div>
-        </header>
+		<!--================Header Menu Area =================-->
+		<% include includes/header-menu.ejs %>
         <!--================Header Menu Area =================-->
         
         <!--================Home Banner Area =================-->
@@ -158,91 +120,7 @@
         <!--================End Interior Area =================-->
         
         <!--================Price Area =================-->
-        <section class="price_area p_120" id="price">
-        	<div class="container">
-        		<div class="main_title">
-        			<h2>Pricing Table</h2>
-        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
-        		</div>
-        		<div class="price_item_inner row">
-        			<div class="col-lg-4">
-        				<div class="price_item">
-        					<div class="price_head">
-        						<div class="float-left">
-        							<h3>Standard</h3>
-        							<p>For the individuals</p>
-        						</div>
-        						<div class="float-right">
-        							<h2>£199</h2>
-        						</div>
-        					</div>
-        					<div class="price_body">
-        						<ul class="list">
-        							<li><a href="#">2.5 GB Free Photos</a></li>
-        							<li><a href="#">Secure Online Transfer Indeed</a></li>
-        							<li><a href="#">Unlimited Styles for interface</a></li>
-        							<li><a href="#">Reliable Customer Service</a></li>
-        							<li><a href="#">Manual Backup Provided</a></li>
-        						</ul>
-        					</div>
-        					<div class="price_footer">
-        						<a class="main_btn2" href="#">Purchase Plan</a>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-4">
-        				<div class="price_item">
-        					<div class="price_head">
-        						<div class="float-left">
-        							<h3>Standard</h3>
-        							<p>For the individuals</p>
-        						</div>
-        						<div class="float-right">
-        							<h2>£199</h2>
-        						</div>
-        					</div>
-        					<div class="price_body">
-        						<ul class="list">
-        							<li><a href="#">2.5 GB Free Photos</a></li>
-        							<li><a href="#">Secure Online Transfer Indeed</a></li>
-        							<li><a href="#">Unlimited Styles for interface</a></li>
-        							<li><a href="#">Reliable Customer Service</a></li>
-        							<li><a href="#">Manual Backup Provided</a></li>
-        						</ul>
-        					</div>
-        					<div class="price_footer">
-        						<a class="main_btn2" href="#">Purchase Plan</a>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-4">
-        				<div class="price_item">
-        					<div class="price_head">
-        						<div class="float-left">
-        							<h3>Standard</h3>
-        							<p>For the individuals</p>
-        						</div>
-        						<div class="float-right">
-        							<h2>£199</h2>
-        						</div>
-        					</div>
-        					<div class="price_body">
-        						<ul class="list">
-        							<li><a href="#">2.5 GB Free Photos</a></li>
-        							<li><a href="#">Secure Online Transfer Indeed</a></li>
-        							<li><a href="#">Unlimited Styles for interface</a></li>
-        							<li><a href="#">Reliable Customer Service</a></li>
-        							<li><a href="#">Manual Backup Provided</a></li>
-        						</ul>
-        					</div>
-        					<div class="price_footer">
-        						<a class="main_btn2" href="#">Purchase Plan</a>
-        					</div>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
+        <% include includes/index-parts/price-section.ejs %>
         <!--================End Price Area =================-->
         
         <!--================Feature Area =================-->
@@ -312,38 +190,7 @@
         <!--================End Testimonials Area =================-->
         
         <!--================Download App Area =================-->
-        <section class="download_app_area p_120">
-        	<div class="container">
-        		<div class="app_inner">
-        			<h2>Download This App Today!</h2>
-        			<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its popularity and technological advancement are concerned.</p>
-        			<div class="app_btn_area">
-        				<div class="app_btn">
-        					<div class="media">
-								<div class="d-flex">
-									<i class="fa fa-apple" aria-hidden="true"></i>
-								</div>
-								<div class="media-body">
-									<a href="#"><h4>Available</h4></a>
-									<p>on App Store</p>
-								</div>
-							</div>
-        				</div>
-        				<div class="app_btn">
-        					<div class="media">
-								<div class="d-flex">
-									<i class="fa fa-android" aria-hidden="true"></i>
-								</div>
-								<div class="media-body">
-									<a href="#"><h4>Available</h4></a>
-									<p>on App Store</p>
-								</div>
-							</div>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
+        <% include includes/index-parts/download-app-section.ejs %>
         <!--================End Download App Area =================-->
         
         <!--================Latest News Area =================-->
