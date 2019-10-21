@@ -5,4 +5,4 @@ cp -r fonts/ ejsout/fonts
 cp -r vendors/ ejsout/vendors
 cp -r css/ ejsout/css 
 
-ejs-cli -f index.ejs -o ejsout/index.html
+ejs-cli -f index.ejs -o ejsout/
