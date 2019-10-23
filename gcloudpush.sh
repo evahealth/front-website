@@ -1,0 +1,1 @@
+gsutil -m cp -r ejsout gs://evaapp.xyz
