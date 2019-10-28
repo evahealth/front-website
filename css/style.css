@@ -41,6 +41,7 @@ Table of Content:
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Lexend Deca:300,300i,400,500,700");
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -69,13 +70,13 @@ a:hover, a:focus {
 body {
   line-height: 24px;
   font-size: 14px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: normal;
   color: #777777;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 600;
 }
 
@@ -124,7 +125,7 @@ button:focus {
 }
 
 .main_title h2 {
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-size: 36px;
   color: #222222;
   font-weight: 600;
@@ -133,7 +134,7 @@ button:focus {
 
 .main_title p {
   font-size: 14px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   line-height: 24px;
   color: #777777;
   margin-bottom: 0px;
@@ -336,7 +337,7 @@ button:focus {
   line-height: 40px;
   display: inline-block;
   color: #fff;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   text-transform: uppercase;
   font-size: 12px;
   margin-right: 50px;
@@ -356,7 +357,7 @@ button:focus {
 .top_menu .float-right .pur_btn {
   background: #6247ea;
   color: #fff;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   line-height: 40px;
   display: block;
   padding: 0px 40px;
@@ -400,7 +401,7 @@ button:focus {
 
 .home_banner_area .banner_inner .banner_content p {
   color: #fff;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 300;
   max-width: 450px;
   margin-bottom: 40px;
@@ -449,7 +450,7 @@ button:focus {
 .blog_banner .banner_inner .blog_b_text h2 {
   font-size: 60px;
   font-weight: 500;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   line-height: 66px;
   margin-bottom: 15px;
 }
@@ -493,7 +494,7 @@ button:focus {
 .banner_area .banner_inner .banner_content h2 {
   color: #fff;
   font-size: 48px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   margin-bottom: 0px;
   font-weight: 500;
 }
@@ -501,7 +502,7 @@ button:focus {
 .banner_area .banner_inner .banner_content .page_link a {
   font-size: 14px;
   color: #fff;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   margin-right: 32px;
   position: relative;
   text-transform: uppercase;
@@ -568,7 +569,7 @@ button:focus {
 
 .l_news_item .post_view a {
   font-size: 14px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: normal;
   color: #aaaaaa;
   margin-right: 20px;
@@ -667,7 +668,7 @@ button:focus {
 
 .causes_item .causes_text h4 {
   color: #222222;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -694,7 +695,7 @@ button:focus {
   line-height: 50px;
   background: #6247ea;
   color: #fff;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-size: 14px;
   font-weight: 500;
 }
@@ -856,7 +857,7 @@ button:focus {
 }
 
 .blog_info .post_tag a {
-  font: 300 14px/21px "Roboto", sans-serif;
+  font: 300 14px/21px "Lexend Deca", sans-serif;
   color: #222222;
 }
 
@@ -869,7 +870,7 @@ button:focus {
 }
 
 .blog_info .blog_meta li a {
-  font: 300 14px/20px "Roboto", sans-serif;
+  font: 300 14px/20px "Lexend Deca", sans-serif;
   color: #777777;
   vertical-align: middle;
   padding-bottom: 12px;
@@ -1613,35 +1614,35 @@ button:focus {
   box-shadow: none;
   padding: 0px 15px;
   font-size: 13px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 300;
   color: #999999;
 }
 
 .reservation_form .form-group input.placeholder {
   font-size: 13px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 300;
   color: #999999;
 }
 
 .reservation_form .form-group input:-moz-placeholder {
   font-size: 13px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 300;
   color: #999999;
 }
 
 .reservation_form .form-group input::-moz-placeholder {
   font-size: 13px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 300;
   color: #999999;
 }
 
 .reservation_form .form-group input::-webkit-input-placeholder {
   font-size: 13px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 300;
   color: #999999;
 }
@@ -1657,7 +1658,7 @@ button:focus {
 
 .reservation_form .form-group .res_select .current {
   font-size: 13px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 300;
   color: #999999;
 }
@@ -1705,7 +1706,7 @@ button:focus {
 .contact_info .info_item h6 {
   font-size: 16px;
   line-height: 24px;
-  color: "Roboto", sans-serif;
+  color: "Lexend Deca", sans-serif;
   font-weight: bold;
   margin-bottom: 0px;
   color: #222222;
@@ -1730,7 +1731,7 @@ button:focus {
   line-height: 26px;
   color: #999;
   border: 1px solid #eeeeee;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   border-radius: 0px;
   padding-left: 20px;
 }
@@ -1807,7 +1808,7 @@ button:focus {
   text-align: center;
   color: #6247ea;
   padding-bottom: 10px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .modal-message .modal-dialog .modal-content .modal-header p {
@@ -3372,7 +3373,7 @@ h6 {
   background-size: 200% auto;
   padding: 0px 50px;
   color: #fff;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-size: 13px;
   font-weight: 500;
   line-height: 50px;
@@ -3397,7 +3398,7 @@ h6 {
   background: #f9f9ff;
   padding: 0px 50px;
   color: #222222;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 50px;
@@ -3445,7 +3446,7 @@ h6 {
   line-height: 40px;
   padding: 0px 28px;
   font-size: 14px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   -webkit-transition: all 300ms linear 0s;
@@ -3465,7 +3466,7 @@ h6 {
   padding: 0px 32px;
   font-size: 13px;
   font-weight: 500;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   border-radius: 5px;
   color: #222222;
   line-height: 34px;
@@ -3643,7 +3644,7 @@ h6 {
 .app_btn_area .media .media-body p {
   margin-bottom: 0px;
   font-size: 14px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: normal;
   -webkit-transition: all 300ms linear 0s;
   -o-transition: all 300ms linear 0s;
@@ -3739,7 +3740,7 @@ h6 {
   margin-bottom: 0px;
   font-weight: bold;
   font-size: 36px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .price_item .price_head p {
@@ -3758,7 +3759,7 @@ h6 {
 
 .price_item .price_body .list li a {
   font-size: 14px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: normal;
   color: #777777;
 }
@@ -3856,7 +3857,7 @@ h6 {
 
 .testi_item .media .media-body h4 {
   color: #222222;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 500;
   font-size: 20px;
   -webkit-transition: all 300ms linear 0s;
@@ -3869,7 +3870,7 @@ h6 {
   font-size: 14px;
   color: #777777;
   font-weight: normal;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .testi_item:hover .media {
@@ -3990,7 +3991,7 @@ h6 {
   display: block;
   color: #6247ea;
   font-size: 24px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 500;
   margin-bottom: 10px;
 }
@@ -4083,9 +4084,11 @@ h6 {
   background-image: -webkit-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
   background-image: -ms-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
 }
-.body {
+
+body {
   cursor: url('http://pixelartmaker.com/art/60f243e88d73ce2.png'), auto;
 }
+
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
