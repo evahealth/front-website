@@ -4083,7 +4083,9 @@ h6 {
   background-image: -webkit-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
   background-image: -ms-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
 }
-
+.body {
+  cursor: url('http://pixelartmaker.com/art/60f243e88d73ce2.png'), auto;
+}
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
