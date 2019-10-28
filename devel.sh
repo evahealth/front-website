@@ -1,3 +1,5 @@
+rm -r ejsout/*
+
 cp -r img/ ejsout/img
 cp -r js/ ejsout/js
 cp -r scss/ ejsout/scss
