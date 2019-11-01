@@ -11,4 +11,7 @@ ejs-cli -f index.ejs -o ejsout/
 ejs-cli -f elements/index.ejs -o ejsout/
 
 echo "Pushing to Google now..."
-gsutil -m cp -r ejsout gs://evaapp.xyz
+
+cd ejsout/
+
+gsutil -m cp -r * gs://evaapp.xyz
