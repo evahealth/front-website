@@ -2,10 +2,14 @@
     <head>
         <% include materialheadcdn.ejs %>      
         <% include includes/metatags.ejs %>   
-        <% include includes/bootstrap-hydrogen.ejs %>
+		<% include includes/bootstrap-hydrogen.ejs %>
                 <!-- main css -->
                 <link rel="stylesheet" href="/css/style.css">
-                <link rel="stylesheet" href="/css/responsive.css">
+				<link rel="stylesheet" href="/css/responsive.css">
+				<link rel="stylesheet" href="/css/stark.css">
+		 
+		<!--Drift Chat Plugin-->
+		<% include includes/drift-insert.ejs %>
     </head>
     <body data-spy="scroll" data-target="#mainNav" data-offset="70">
         
@@ -22,7 +26,7 @@
         <!--================End Feature Area =================-->
         
         <!--================Interior Area =================-->
-        <section class="interior_area">
+        <!--<section class="interior_area">
         	<div class="container">
         		<div class="interior_inner row">
         			<div class="col-lg-6">
@@ -37,11 +41,11 @@
         			</div>
         		</div>
         	</div>
-        </section>
+        </section>-->
         <!--================End Interior Area =================-->
         
         <!--================Interior Area =================-->
-        <section class="interior_area interior_two">
+        <!--<section class="interior_area interior_two">
         	<div class="container">
         		<div class="interior_inner row">
         			<div class="col-lg-5 offset-lg-1">
@@ -55,7 +59,7 @@
         				<img class="img-fluid" src="/img/interior-2.png" alt="">
         			</div>
         		</div>
-        		<div class="video_area" id="video">
+        		<div class="video_area" id="video">-->
         			<!--<img class="img-fluid" src="/img/video-1.png" alt="">
         			<a class="popup-youtube" href="https://www.youtube.com/watch?v=VufDd-QL1c0">
         				<img src="/img/icon/video-icon-1.png" alt="">
@@ -140,8 +144,11 @@
         <!--================End Download App Area =================-->
         
 		<!--================Latest News Area =================-->
-		<% include includes/index-parts/latest-news.ejs %>
-        <!--================End Latest News Area =================-->
+		<!--================End Latest News Area =================-->
+		
+		<!--JOE MAMA IS ABOUT--><br>
+		<% include includes/index-parts/about-us.ejs %>
+		<!--joe mama eva is about-->
         
         <!--================ start footer Area  =================-->	
 		<% include includes/footer-area.ejs %>
@@ -163,6 +170,7 @@
         <script src="/vendors/counter-up/jquery.counterup.js"></script>
         <script src="/js/mail-script.js"></script>
         <script src="/vendors/popup/jquery.magnific-popup.min.js"></script>
-        <script src="/js/theme.js"></script>
+		<script src="/js/theme.js"></script>
+		<% include includes/index-parts/easter-egg.ejs %>
     </body>
 </html>
