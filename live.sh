@@ -9,6 +9,7 @@ cp -r css/ ejsout/css
 
 ejs-cli -f index.ejs -o ejsout/
 ejs-cli -f elements/index.ejs -o ejsout/
+ejs-cli -f elements/team.ejs -o ejsout/
 
 echo "Pushing to Google now..."
 
