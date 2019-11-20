@@ -8,3 +8,4 @@ cp -r vendors/ ejsout/vendors
 cp -r css/ ejsout/css 
 
 ejs-cli -f index.ejs -o ejsout/
+ejs-cli -f elements/index.ejs -o ejsout/
