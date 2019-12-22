@@ -1,15 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <% include materialheadcdn.ejs %>      
+         <%# include materialheadcdn.ejs %>
         <% include includes/metatags.ejs %>   
 		<% include includes/bootstrap-hydrogen.ejs %>
+		<title>Eva | Tutoring on Demand | Online Therapy & Counseling Online</title>
+		<meta name="Description" content="Eva: Online Tutoring and Therapy App, Edu App.">
                 <!-- main css -->
                 <link rel="stylesheet" href="/css/style.css">
 				<link rel="stylesheet" href="/css/responsive.css">
 				<link rel="stylesheet" href="/css/stark.css">
 		 
 		<!--Drift Chat Plugin-->
-		<% include includes/drift-insert.ejs %>
+		<%# include includes/drift-insert.ejs %>
     </head>
     <body data-spy="scroll" data-target="#mainNav" data-offset="70">
         
@@ -68,10 +71,6 @@
         	</div>
         </section>
         <!--================End Interior Area =================-->
-        
-        <!--================Price Area =================-->
-        <% include includes/index-parts/price-section.ejs %>
-        <!--================End Price Area =================-->
         
         <!--================Feature Area =================-->
         <!--<section class="screenshot_area p_120" id="screen">
@@ -156,7 +155,7 @@
         
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="/js/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="/js/popper.js"></script>
         <script src="/js/bootstrap.min.js"></script>
         <script src="/js/stellar.js"></script>
@@ -171,6 +170,13 @@
         <script src="/js/mail-script.js"></script>
         <script src="/vendors/popup/jquery.magnific-popup.min.js"></script>
 		<script src="/js/theme.js"></script>
-		<% include includes/index-parts/easter-egg.ejs %>
+		<style>
+		html, body {
+    max-width: 100%;
+  	  overflow-x: hidden;
+	}
+		</style>
+		<% include includes/g-analytics.ejs %>
+		<script src='/js/lazysizes.min.js' async></script>
     </body>
 </html>
