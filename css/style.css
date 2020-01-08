@@ -45,6 +45,10 @@ Table of Content:
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+.light_gray_text {
+  text_color: '#616161';
+}
+
 .list {
   list-style: none;
   margin: 0px;
