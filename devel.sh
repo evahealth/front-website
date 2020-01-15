@@ -9,3 +9,4 @@ cp -r css/ ejsout/css
 
 ejs-cli -f index.ejs -o ejsout/
 ejs-cli -f elements/index.ejs -o ejsout/
+ejs-cli -f pricing/index.ejs -o ejsout/

@@ -12,6 +12,7 @@ ejs-cli -f index.ejs -o ejsout/
 ejs-cli -f privacy.ejs -o ejsout/
 ejs-cli -f tos.ejs -o ejsout/
 ejs-cli -f elements/index.ejs -o ejsout/
+ejs-cli -f pricing/index.ejs -o ejsout/
 
 echo "Minifying html"
 
