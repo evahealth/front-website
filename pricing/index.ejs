@@ -8,7 +8,7 @@
 		<meta name="Description" content="Eva: Online Tutoring and Therapy App, Edu App.">
                 <!-- main css -->
                 <link rel="stylesheet" href="/css/style.css">
-				<link rel="stylesheet" href="/css/responsive.css">
+				<link rel="stylesheet" href="/css/responsive-pricing.css">
 				<link rel="stylesheet" href="/css/stark.css">
 		 
      <style>
@@ -19,6 +19,33 @@
       #f8f8f8 {
         background-color: #202125;
       }
+
+      .header_area.navbar_fixed .main_menu {
+    position: fixed;
+    width: 100%;
+    top: -70px;
+    left: 0;
+    right: 0;
+    background-image: -moz-linear-gradient(0deg,#424242 0%,#424242 100%);
+    background-image: -webkit-linear-gradient(0deg,#424242 0%,#424242 100%);
+    background-image: -ms-linear-gradient(0deg,#424242 0%,#424242 100%);
+    -webkit-transform: translateY(70px);
+    -ms-transform: translateY(70px);
+    transform: translateY(70px);
+    -webkit-transition: background 500ms ease,-webkit-transform 500ms ease;
+    transition: background 500ms ease,-webkit-transform 500ms ease;
+    -o-transition: transform 500ms ease,background 500ms ease;
+    transition: transform 500ms ease,background 500ms ease;
+    transition: transform 500ms ease,background 500ms ease,-webkit-transform 500ms ease;
+    -webkit-transition: transform 500ms ease,background 500ms ease;
+    -webkit-box-shadow: 0 3px 16px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 3px 16px 0 rgba(0,0,0,0.1);
+}
+
+@media (max-width: 991px) {
+.header_area .navbar {
+    background-color: #424242;
+}}
      </style>
 		<!--Drift Chat Plugin-->
 		<%# include includes/drift-insert.ejs %>
@@ -36,8 +63,8 @@
         <section class="price_area p_120" id="price" style="background-color: #202125;">
     <div class="container">
         <div class="main_title">
-            <h2>Pricing Table</h2>
-            <p>These prices are for ve purposes only, our service does not request or require payment from users</p>
+            <h2 style='color: #FAFAFA'>Choose the price that's right for you.</h2>
+            <p>Pay by month or the year, and cancel at any time.</p>
         </div>
         <div class="price_item_inner row">
             <div class="col-lg-4">
