@@ -14,6 +14,22 @@
 				#planner-photo-1 {
 					max-width: 100%;
 				}
+
+        #plannertext{ padding:16px 16px;}
+
+				@media screen and (min-width:767px) {
+        #plannertext{ padding:50px 50px;}
+    }
+
+    @media screen and (min-width:1024px) {
+        #plannertext{ padding:64px 64px;}
+
+		#major-planner {
+			padding-top: 16px;
+			padding-bottom: 16px;
+		}
+    }
+
 				</style>
 		 
 		<!--Drift Chat Plugin-->
@@ -29,8 +45,17 @@
 		<% include includes/index-parts/home-banner.ejs %>
         <!--================End Home Banner Area =================-->
 
-		<section style="background: linear-gradient(129.07deg, #B7D0F7 2.3%, #D7D6F4 85.27%, #FFFFFF 130.69%);">
-		<h1 style="color: #343F88">Eva Planner</h1><img src='/img/app/planner-1-min.png' id='planner-photo-1'>
+		<section style="background: linear-gradient(129.07deg, #B7D0F7 2.3%, #D7D6F4 85.27%, #FFFFFF 130.69%);" id='major-planner'>
+		<div class='row'>
+		<div class='col-sm-12 col-md-7 col-lg-7' id='plannertext'>
+		<h1 style="color: #343F88;text-align: center;">Eva Planner</h1>
+		<p style="color: #343F88;">Eva Planner is the best planner on the market and comes free with all of our plans. With Eva Planner you can arrange meetings with tutors or therapists witht the click of a button. Eva Planner can be used to organize all aspects of your life to help your mental health and stress.<br><br>
+		It syncs with school schedules, gradebooks, and teacher portals such as Canvas and Google Classroom, along with hundreds of intergrations.<br>
+		<br>Stay Woke.
+		</p>
+		</div>
+		<div class='col-sm-12 col-md-5 col-lg-5'><img src='/img/app/planner-1-min.png' id='planner-photo-1' class="tilt-in-top-1" style="padding: 20px;"></div>
+		</div>
 </section>
         
         <!--================Feature Area =================-->
@@ -187,7 +212,7 @@
   	  overflow-x: hidden;
 	}
 		</style>
-		<%# include includes/g-analytics.ejs %>
+		<% include includes/g-analytics.ejs %>
 		<script src='/js/lazysizes.min.js' async></script>
     </body>
 </html>

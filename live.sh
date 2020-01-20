@@ -29,4 +29,4 @@ echo "Pushing to Google now..."
 
 cd ejsout-min/
 
-gsutil -m cp -r * gs://evaapp.xyz
+gsutil -m rsync -r $(pwd) gs://evaapp.xyz/
