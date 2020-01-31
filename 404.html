@@ -11,23 +11,26 @@
     
   function get_image(){
 
-    var images = ['/404img/001.jpeg','/404img/002.jpeg','/404img/003.jpg','/404img/004.jpg','/404img/005.jpeg','/404img/006.png','/404img/007.jpg'];
+    var images = ['https://evaapp.xyz/404img/001.jpeg','https://evaapp.xyz/404img/002.jpeg','https://evaapp.xyz/404img/003.jpg','https://evaapp.xyz/404img/004.jpg','https://evaapp.xyz/404img/005.jpeg','https://evaapp.xyz/404img/006.png','https://evaapp.xyz/404img/007.jpg'];
     var randImage = images[Math.floor(Math.random()*images.length)];  
     
-    return randImage
+    document.write(randImage)
     
+    return randImage;
   }
   function displayrandImage(){
-    var htmlImage= document.getElementById("randomImage");
-    htmlImage.src=get_image();
+    var htmlimage= document.getElementById("randomImage");
+    htmlimage.src = 'https://evaapp.xyz/404img/007.jpg';
+   
     
     }
-  displayrandImage()
-  
+ displayrandImage();
+ 
   </script>
   <body>
+
   <h1>We Messed Up</h1>
-  <img id=randomImage' class='boomer404' src='/404img/007.jpg'>
+  <img id='randomImage' class='boomer404' src = '' >
     
   <a href = 'https://evaapp.xyz'><h3>Go Back</h3></a>
   </body>
