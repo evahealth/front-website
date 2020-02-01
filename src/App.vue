@@ -1,0 +1,184 @@
+<template>
+      
+		<!--================Header Menu Area =================-->
+		<% include includes/header-menu.ejs %>
+        <!--================Header Menu Area =================-->
+        
+        <!--================Home Banner Area =================-->
+		<% include includes/index-parts/home-banner.ejs %>
+        <!--================End Home Banner Area =================-->
+
+		<section style="background: linear-gradient(129.07deg, #B7D0F7 2.3%, #D7D6F4 85.27%, #FFFFFF 130.69%);" id='major-planner'>
+		<div class='row'>
+		<div class='col-sm-12 col-md-7 col-lg-7' id='plannertext'>
+		<h1 style="color: #343F88;text-align: center;">Eva Planner</h1>
+		<p style="color: #343F88;">Eva Planner is the best planner on the market and comes free with all of our plans. With Eva Planner you can arrange meetings with tutors or therapists witht the click of a button. Eva Planner can be used to organize all aspects of your life to help your mental health and stress.<br><br>
+		It syncs with school schedules, gradebooks, and teacher portals such as Canvas and Google Classroom, along with hundreds of intergrations.<br>
+		<br>Stay Woke.
+		</p>
+		</div>
+		<div class='col-sm-12 col-md-5 col-lg-5'><img src='/img/app/planner-1-min.png' id='planner-photo-1' class="tilt-in-top-1 lazy" style="padding: 20px;"></div>
+		</div>
+</section>
+        
+        <!--================Feature Area =================-->
+        <% include includes/index-parts/feature-area.ejs %>
+        <!--================End Feature Area =================-->
+        
+        <!--================Interior Area =================-->
+        <!--<section class="interior_area">
+        	<div class="container">
+        		<div class="interior_inner row">
+        			<div class="col-lg-6">
+        				<img class="img-fluid" src="/img/interior-1.png" alt="">
+        			</div>
+        			<div class="col-lg-5 offset-lg-1">
+        				<div class="interior_text">
+        					<h4>We Believe that Interior beautifies the Total Architecture</h4>
+        					<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed off.</p>
+        					<a class="main_btn" href="#">See Details</a>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>-->
+        <!--================End Interior Area =================-->
+        
+        <!--================Interior Area =================-->
+        <!--<section class="interior_area interior_two">
+        	<div class="container">
+        		<div class="interior_inner row">
+        			<div class="col-lg-5 offset-lg-1">
+        				<div class="interior_text">
+        					<h4>We Believe that Interior beautifies the Total Architecture</h4>
+        					<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed off.</p>
+        					<a class="main_btn" href="#">See Details</a>
+        				</div>
+        			</div>
+        			<div class="col-lg-6">
+        				<img class="img-fluid" src="/img/interior-2.png" alt="">
+        			</div>
+        		</div>
+        		<div class="video_area" id="video">-->
+        			<!--<img class="img-fluid" src="/img/video-1.png" alt="">
+        			<a class="popup-youtube" href="https://www.youtube.com/watch?v=VufDd-QL1c0">
+        				<img src="/img/icon/video-icon-1.png" alt="">
+        			</a>-->
+        		</div>
+        	</div>
+        </section>
+        <!--================End Interior Area =================-->
+        
+        <!--================Feature Area =================-->
+        <!--<section class="screenshot_area p_120" id="screen">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Unique Screenshots</h2>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
+        		</div>
+        		<div class="screenshot_inner owl-carousel">
+        			<div class="item">
+        				<img src="/img/feature/feature-1.jpg" alt="">
+        			</div>
+        			<div class="item">
+        				<img src="/img/feature/feature-2.jpg" alt="">
+        			</div>
+        			<div class="item">
+        				<img src="/img/feature/feature-3.jpg" alt="">
+        			</div>
+        			<div class="item">
+        				<img src="/img/feature/feature-4.jpg" alt="">
+        			</div>
+        		</div>
+        	</div>
+        </section>-->
+        <!--================End Feature Area =================-->
+        
+        <!--================Testimonials Area =================-->
+        <!--<section class="testimonials_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Testimonials</h2>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
+        		</div>
+        		<div class="testi_slider owl-carousel">
+        			<div class="item">
+        				<div class="testi_item">
+							<div class="media">
+								<div class="d-flex">
+									<img src="/img/testimonials/testi-1.png" alt="">
+								</div>
+								<div class="media-body">
+									<p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware.</p>
+									<h4>Mark Alviro Wiens</h4>
+									<h5>CEO at Google</h5>
+								</div>
+							</div>
+        				</div>
+        			</div>
+        			<div class="item">
+        				<div class="testi_item">
+							<div class="media">
+								<div class="d-flex">
+									<img src="/img/testimonials/testi-2.png" alt="">
+								</div>
+								<div class="media-body">
+									<p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware.</p>
+									<h4>Mark Alviro Wiens</h4>
+									<h5>CEO at Google</h5>
+								</div>
+							</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>-->
+        <!--================End Testimonials Area =================-->
+        
+       
+        
+		<!--================Latest News Area =================-->
+		<!--================End Latest News Area =================-->
+		
+		<!--JOE MAMA IS ABOUT--><br>
+		<% include includes/index-parts/about-us.ejs %>
+		<!--joe mama eva is about-->
+		
+		 <!--================Download App Area =================-->
+        <% include includes/index-parts/download-app-section.ejs %>
+        <!--================End Download App Area =================-->
+        
+        <!--================ start footer Area  =================-->	
+		<% include includes/footer-area.ejs %>
+		<!--================ End footer Area  =================-->
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="/js/popper.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/stellar.js"></script>
+        <script src="/vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="/vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="/vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="/vendors/isotope/isotope-min.js"></script>
+        <script src="/vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="/js/jquery.ajaxchimp.min.js"></script>
+        <script src="/vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="/vendors/counter-up/jquery.counterup.js"></script>
+        <script src="/js/mail-script.js"></script>
+        <script src="/vendors/popup/jquery.magnific-popup.min.js"></script>
+		<script src="/js/theme.js"></script>
+		<style>
+		html, body {
+    max-width: 100%;
+  	  overflow-x: hidden;
+	}
+		</style>
+		<% include includes/g-analytics.ejs %>
+		<script src='/js/lazysizes.min.js' async></script>
+</template>
+
+<style>
+  @import './css/style.css';
+</style>
