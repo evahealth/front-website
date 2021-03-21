@@ -31,4 +31,4 @@ cp -r $BASEDIR/ejsout/vendors/* $BASEDIR/ejsout-min/vendors/
 
 echo "Pushing to Google now..."
 
-gsutil -m rsync -r $BASEDIR/ejsout-min gs://evaapp.xyz/
+#gsutil -m rsync -r $BASEDIR/ejsout-min gs://evaapp.xyz/

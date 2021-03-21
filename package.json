@@ -1,0 +1,29 @@
+{
+  "name": "front-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.3.0",
+    "npm": "^6.13.7",
+    "vue": "^2.6.11",
+    "vue-analytics": "^5.22.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evahealth/front-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evahealth/front-website/issues"
+  },
+  "homepage": "https://github.com/evahealth/front-website#readme"
+}

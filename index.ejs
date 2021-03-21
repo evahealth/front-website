@@ -15,10 +15,14 @@
 					max-width: 100%;
 				}
 
-        #plannertext{ padding:16px 16px;}
+              #plannertext{ padding-top:32px;padding-left:10px;padding-right:10px;}
 
 				@media screen and (min-width:767px) {
-        #plannertext{ padding:50px 50px;}
+        #plannertext{ padding-left:50px:padding-right:50px;}
+		.plannerrow {
+							padding-left: 64px;
+							padding-right: 16px;
+						}
     }
 
     @media screen and (min-width:1024px) {
@@ -28,6 +32,11 @@
 			padding-top: 16px;
 			padding-bottom: 16px;
 		}
+
+						.plannerrow {
+							padding-left: 64px;
+							padding-right: 64px;
+						}
     }
 
 				</style>
@@ -46,15 +55,15 @@
         <!--================End Home Banner Area =================-->
 
 		<section style="background: linear-gradient(129.07deg, #B7D0F7 2.3%, #D7D6F4 85.27%, #FFFFFF 130.69%);" id='major-planner'>
-		<div class='row'>
-		<div class='col-sm-12 col-md-7 col-lg-7' id='plannertext'>
-		<h1 style="color: #343F88;text-align: center;">Eva Planner</h1>
+		<div class='row plannerrow'>
+		<div class='col-sm-12 col-md-12 col-lg-7' id='plannertext'>
+		<h1 style="color: #343F88;text-align: left;">Eva Planner</h1>
 		<p style="color: #343F88;">Eva Planner is the best planner on the market and comes free with all of our plans. With Eva Planner you can arrange meetings with tutors or therapists witht the click of a button. Eva Planner can be used to organize all aspects of your life to help your mental health and stress.<br><br>
 		It syncs with school schedules, gradebooks, and teacher portals such as Canvas and Google Classroom, along with hundreds of intergrations.<br>
-		<br>Stay Woke.
+		<br>
 		</p>
 		</div>
-		<div class='col-sm-12 col-md-5 col-lg-5'><img src='/img/app/planner-1-min.png' id='planner-photo-1' class="tilt-in-top-1 lazy" style="padding: 20px;"></div>
+		<div class='col-sm-12 col-md-12 col-lg-5'><img src='/img/app/planner-1-min.png' id='planner-photo-1' class="tilt-in-top-1 lazy" style="padding: 20px;"></div>
 		</div>
 </section>
         
@@ -212,7 +221,6 @@
   	  overflow-x: hidden;
 	}
 		</style>
-		<% include includes/g-analytics.ejs %>
 		<script src='/js/lazysizes.min.js' async></script>
     </body>
 </html>
