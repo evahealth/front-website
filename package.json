@@ -9,8 +9,8 @@
     "npm": "^6.13.7",
     "vue": "^2.6.11",
     "vue-analytics": "^5.22.1",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "devDependencies": {},
   "scripts": {
